@@ -1,0 +1,17 @@
+DELETE http://localhost:5000/hanjas/5f3a0b2bde44d411f2e4feef
+
+
+###
+
+POST http://localhost:5000/hanjas
+Content-Type: application/json
+
+{
+  "hanja": "外",
+  "meaning": "바깥 외",
+  "wordList": "[외, 외국, 외유내강, 외교]"
+}
+
+###
+
+GET http://localhost:5000/hanjas/外
